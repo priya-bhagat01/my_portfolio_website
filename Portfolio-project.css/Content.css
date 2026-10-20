@@ -12,7 +12,7 @@ body{
 	background-image: url("/Portfolio-img.png/Background-image.jpg");
 	background-repeat: no-repeat;
 	background-position: right;
-	background-size: 1000px;
+	background-size: contain;
 }
 .head{
 	display: flex;
@@ -28,4 +28,48 @@ body{
 	right: 0;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+.main{
+	padding-top: 80px;
+	padding-left: 80px;
+}
+.Intro{
+	font-size: 35px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.Define{
+	color: #00D2D2;
+	padding-top: 12px;
+	margin-top: 0;
+	font-size: 25px;
+}
+.Aboutme{
+	font-size: 15px;
+}
+.Aboutme .tagline{
+	margin-top: 10px;
+	font-size: 20px;
+}
+.Explore ,
+.Contactme{
+	border: none;
+	background-color: #a8fff7;
+	padding: 12px;
+	border-radius: 8px;
+}
+.bottom{
+	padding-top: 120px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+}
+.github-reference ,
+.linkedin-reference ,
+.github-reference-img ,
+.linkedin-reference-img{
+	mix-blend-mode: multiply;
+	width: 20px;
+	height: 20px;
+	margin-right: 14px;
 }
