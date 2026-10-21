@@ -46,7 +46,8 @@ body{
 .Skills:hover ,
 .Contact:hover{
 	background-color: #41373c;
-	color: #f1f1cc;
+	/* color: #f1f1cc; */
+	color: cyan;
 	width: 55px;
 	height: 30px;
 }
@@ -56,4 +57,12 @@ body{
 h1{
 	text-align: center;
 	padding: 12px;
+	color: teal;
+	/* color: cyan; */
+}
+.git-icon ,
+.link-icon{
+	display: inline;
+	width: 50px;
+	mix-blend-mode: multiply;
 }
