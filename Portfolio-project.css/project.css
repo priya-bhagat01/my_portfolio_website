@@ -11,10 +11,16 @@ a{
 	text-decoration: none;
 	color: inherit;
 }
+span ,
+h1{
+	display: inline-block;
+	font-size: 24px;
+}
 body{
 	/* color: #f7a1a1; Save for font color*/
 	font-family: Roboto , Arial;
 	background-color: #A52A2A;
+	/* background-color: rgb(25, 25, 29); */
 	margin: 0;
 	padding-top: 70px;
 	/* padding-left: 25px; */
@@ -24,10 +30,12 @@ body{
 	background-size: cover; */
 	cursor: pointer;
 	color: #fff8dc;
+	font-size:18px;
 }
 .head{
 	display: flex;
 	/* background-color: #1E030A; */
+	background-color: #852222;
 	position: fixed;
 	flex-direction: row;
 	align-items: center;
@@ -53,4 +61,15 @@ body{
 }
 .Education:hover{
 	width: 75px;
+}
+h1{
+	color: rgb(255, 255, 253);
+}
+.Amazon-project ,
+.Library-project ,
+.RPS-project ,
+.more-projects{
+	color: beige;
+	background-color: #4d1111;
+	padding-bottom: 35px;
 }
