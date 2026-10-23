@@ -13,6 +13,8 @@ a{
 }
 body{
 	/* color: #f7a1a1; Save for font color*/
+	/* background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
+                url('../Portfolio-img.png/Background-img1.jpg') no-repeat center center fixed;  (Darkens the background img)*/
 	font-family: Roboto , Arial;
 	background-color: #151515;
 	margin: 0;
