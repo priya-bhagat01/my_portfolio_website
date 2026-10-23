@@ -13,7 +13,7 @@ body{
 	/* background-color: #2D0007; */
 	margin: 0;
 	padding-top: 50px;
-	background-image: url("/Portfolio-img.png/Background-image.jpg");
+	background-image: url("../Portfolio-img.png/Background-image.jpg");
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: contain;
